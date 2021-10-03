@@ -14,7 +14,7 @@ $count++;
 If ($count -gt 40) 
     {
 
-      Write-Host Just pausing a minute to avoid IP blocking from ip-api.com
+      Write-Host "Just pausing a minute to avoid IP blocking from ip-api.com"
       Start-Sleep 70
       $count = 0
     }
